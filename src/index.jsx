@@ -8,11 +8,4 @@ import ReactDOM from "react-dom/client";
 
 import "@/index.less";
 const root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<div>demo1</div>);
-
-fetch("/jian/subscriptions/recommended_collections").then((res) =>
-  console.log(res)
-);
-fetch("/zhi/subscriptions/recommended_collections").then((res) =>
-  console.log(res)
-);
+root.render(<div>demo1 </div>);
